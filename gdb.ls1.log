@@ -1,0 +1,18 @@
+Starting program: /home/VDI-KNU/2021113091_14779/바탕화면/lab4_s2021113091/ls1 
+[Inferior 1 (process 34464) exited normally]
+Breakpoint 1 at 0x555555555250: file ls1.c, line 20.
+No default breakpoint address now.
+Starting program: /home/VDI-KNU/2021113091_14779/바탕화면/lab4_s2021113091/ls1 
+
+Breakpoint 1, do_ls (
+    dirname=0x55555555531d <__libc_csu_init+77> "H\203\303\001H9\335u\352H\203\304\b[]A\\A]A^A_\303ff.\017\037\204") at ls1.c:20
+20	{
+Continuing.
+[Inferior 1 (process 34479) exited normally]
+Starting program: /home/VDI-KNU/2021113091_14779/바탕화면/lab4_s2021113091/ls1 
+
+Breakpoint 1, do_ls (
+    dirname=0x55555555531d <__libc_csu_init+77> "H\203\303\001H9\335u\352H\203\304\b[]A\\A]A^A_\303ff.\017\037\204") at ls1.c:20
+20	{
+23		if ((dir_ptr = opendir(dirname)) == NULL)
+$1 = {void (char *)} 0x555555555250 <do_ls>
